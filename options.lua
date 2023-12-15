@@ -7,6 +7,10 @@ return {
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
+    tabstop = 4,
+    shiftwidth = 4,
+    expandtab,
+    guifont = "DejaVu Sans Mono for Powerline:h24",
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
